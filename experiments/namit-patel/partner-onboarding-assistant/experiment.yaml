@@ -1,0 +1,17 @@
+name: Partner Onboarding Assistant
+owner: Namit Patel
+department: Partner Operations
+description: >
+  Chatbot that guides new partners through the onboarding process. Answers
+  questions, tracks progress, and escalates blockers.
+workflow: partner_matching
+platform: chatgpt
+status: idea
+impact: "Target: reduce partner onboarding time by 40%"
+tools:
+  - ChatGPT Enterprise
+data_sources:
+  - Partner Portal
+  - Onboarding Checklist
+  - Training Materials
+started: "2026-02-20"

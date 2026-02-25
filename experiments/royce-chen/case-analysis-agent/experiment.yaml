@@ -1,0 +1,22 @@
+name: Case Analysis Agent
+owner: Royce Chen
+department: CTS
+description: >
+  AI agent that analyzes incoming customer cases, identifies patterns across
+  similar historical cases, and suggests resolution paths. Uses semantic search
+  to find relevant knowledge articles and past solutions.
+workflow: cts_case_analysis
+platform: claude-code
+status: pilot
+impact: "Reducing case triage time by 35%, improving first-contact resolution"
+tools:
+  - Gemini Pro
+  - Vertex AI Search
+  - BigQuery
+data_sources:
+  - Salesforce Cases
+  - Knowledge Base
+  - Case Resolution History
+started: "2025-09-15"
+contributors:
+  - Janet Liu

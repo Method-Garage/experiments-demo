@@ -1,0 +1,18 @@
+name: SOW Assistant
+owner: Marcus Johnson
+department: Professional Services
+description: >
+  AI assistant for drafting Statements of Work. Analyzes customer requirements,
+  suggests scope based on similar past projects, estimates effort.
+workflow: ps_sow_generation
+platform: chatgpt
+status: prototype
+impact: "Target: reduce SOW drafting time by 50%"
+tools:
+  - ChatGPT Enterprise
+  - SharePoint
+data_sources:
+  - Past SOWs
+  - Project Templates
+  - Rate Cards
+started: "2025-12-15"

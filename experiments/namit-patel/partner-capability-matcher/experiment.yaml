@@ -1,0 +1,19 @@
+name: Partner Capability Matcher
+owner: Namit Patel
+department: Partner Operations
+description: >
+  Matches customer project requirements with partner capabilities. Uses AI to
+  analyze RFP requirements and find best-fit partners from the ecosystem.
+workflow: partner_matching
+platform: cursor
+status: prototype
+impact: "Target: reduce partner selection time from 2 weeks to 2 days"
+tools:
+  - Cursor
+  - Vertex AI
+  - Airtable
+data_sources:
+  - Partner Profiles
+  - Capability Matrix
+  - Past Project History
+started: "2025-10-15"

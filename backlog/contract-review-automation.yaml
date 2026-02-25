@@ -1,0 +1,25 @@
+title: Contract Review Automation
+submitter: Legal Team
+department: Legal
+submitted: "2026-01-15"
+problem: >
+  Legal team reviews 200+ contracts per quarter. Each review takes 2-4 hours.
+  Most contracts are standard with minor variations, but we still manually
+  review every clause.
+current_state:
+  volume: "200+ contracts/quarter"
+  time_per_contract: "2-4 hours"
+  team_size: 3
+  tools: "Word, SharePoint, manual checklist"
+desired_state: >
+  AI pre-reviews contracts, flags non-standard clauses, and auto-approves
+  standard contracts. Humans only review flagged items.
+success_metrics:
+  - "Reduce review time by 60%"
+  - "Maintain 100% accuracy on risk detection"
+  - "Handle standard contracts with zero human touch"
+size: L
+status: open
+suggested_builders:
+  - Tova Martinez
+  - Marcus Johnson

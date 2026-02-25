@@ -1,0 +1,17 @@
+name: Knowledge Gap Finder
+owner: Janet Liu
+department: Support
+description: >
+  Analyzes support tickets to identify gaps in knowledge base coverage.
+  Suggests new articles to write based on recurring questions.
+workflow: support_ticket_triage
+platform: chatgpt
+status: killed
+impact: "Discontinued - overlaps with SearchUnify analytics"
+tools:
+  - ChatGPT Enterprise
+data_sources:
+  - Support Tickets
+  - Knowledge Base
+started: "2025-08-15"
+killed_reason: "Functionality covered by SearchUnify analytics dashboard"

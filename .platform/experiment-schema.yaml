@@ -1,0 +1,67 @@
+# Experiment YAML Schema
+# All experiment.yaml files must conform to this schema
+
+required:
+  - name
+  - owner
+  - description
+  - status
+
+optional:
+  - department
+  - workflow
+  - platform
+  - impact
+  - tools
+  - data_sources
+  - started
+  - contributors
+
+fields:
+  name:
+    type: string
+    description: Short name for the experiment
+
+  owner:
+    type: string
+    description: Primary builder (name, not email)
+
+  department:
+    type: string
+    description: Team or department
+
+  description:
+    type: string
+    description: Brief description of what this experiment does
+
+  workflow:
+    type: string
+    description: Target workflow from workflow-inventory
+
+  platform:
+    type: enum
+    values: [chatgpt, copilot-studio, cursor, claude-code, custom]
+
+  status:
+    type: enum
+    values: [idea, prototype, pilot, scaling, scaled, killed]
+
+  impact:
+    type: string
+    description: Estimated or measured impact
+
+  tools:
+    type: list[string]
+    description: Tools and services used
+
+  data_sources:
+    type: list[string]
+    description: Data sources accessed
+
+  started:
+    type: date
+    description: When work began (YYYY-MM-DD)
+
+  contributors:
+    type: list[string]
+    description: Additional contributors

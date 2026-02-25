@@ -1,0 +1,22 @@
+title: Expense Report Validation
+submitter: Finance Operations
+department: Finance
+submitted: "2026-02-01"
+problem: >
+  Finance manually validates expense reports against policy. Common issues:
+  missing receipts, policy violations, duplicate submissions. Takes 15 min
+  per report, 500+ reports per month.
+current_state:
+  volume: "500+ reports/month"
+  time_per_report: "15 minutes"
+  rejection_rate: "25%"
+  tools: "Concur, manual review"
+desired_state: >
+  AI validates reports on submission, auto-approves compliant ones, flags
+  issues with specific guidance for submitter to fix.
+success_metrics:
+  - "Auto-approve 60% of reports"
+  - "Reduce rejection rate to 10%"
+  - "Catch 95% of policy violations"
+size: M
+status: open

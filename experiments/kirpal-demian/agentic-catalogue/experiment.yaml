@@ -1,0 +1,21 @@
+name: Agentic Catalogue
+owner: Kirpal Demian
+department: CTS
+description: >
+  Self-maintaining product catalogue that uses AI agents to keep product
+  information current. Agents crawl vendor sites, extract specs, and
+  update the catalogue automatically.
+workflow: cts_case_analysis
+platform: claude-code
+status: prototype
+impact: "Reducing manual catalogue maintenance by 80%"
+tools:
+  - Claude Code
+  - LangGraph
+  - Playwright
+  - PostgreSQL
+data_sources:
+  - Vendor Websites
+  - Product Specs
+  - Pricing APIs
+started: "2025-11-01"

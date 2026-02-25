@@ -1,0 +1,17 @@
+name: SearchUnify POC
+owner: Royce Chen
+department: CTS
+description: >
+  Proof of concept integrating SearchUnify's cognitive search with case
+  resolution workflow. Compares accuracy against native Salesforce search.
+workflow: cts_case_analysis
+platform: custom
+status: prototype
+impact: "Testing search accuracy improvements over baseline"
+tools:
+  - SearchUnify
+  - Salesforce API
+data_sources:
+  - Knowledge Base
+  - Community Forums
+started: "2025-12-01"

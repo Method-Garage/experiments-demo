@@ -1,0 +1,18 @@
+name: NPS Insights GPT
+owner: Sarah Kim
+department: Customer Success
+description: >
+  Custom GPT that analyzes NPS survey responses, identifies themes and
+  sentiment trends, and generates executive summaries. Helps CS managers
+  spot issues before they escalate.
+workflow: cs_nps_analysis
+platform: chatgpt
+status: pilot
+impact: "Reducing NPS analysis time from 4 hours to 15 minutes per cohort"
+tools:
+  - ChatGPT Enterprise
+  - Excel
+data_sources:
+  - NPS Survey Exports
+  - Customer Segments
+started: "2025-10-01"
