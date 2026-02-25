@@ -7,7 +7,7 @@ description: >
 workflow: ps_compliance
 platform: copilot-studio
 status: scaling
-impact: "In active use for T&C review process"
+impact: "Expanding to all PS deal reviews"
 tools:
   - Copilot Studio
   - Compliance Framework

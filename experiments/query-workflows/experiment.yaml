@@ -7,7 +7,7 @@ description: >
 workflow: cs_analytics
 platform: cursor
 status: scaling
-impact: "In active use by analytics team"
+impact: "Rolling out to analytics team globally"
 tools:
   - Cursor
   - SQL

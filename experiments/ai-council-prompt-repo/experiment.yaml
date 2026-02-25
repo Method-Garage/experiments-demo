@@ -5,8 +5,8 @@ description: >
   Centralized SharePoint repository for AI prompts, templates, and
   best practices curated by the AI Council.
 platform: custom
-status: prototype
-impact: "In development - knowledge sharing platform"
+status: idea
+impact: "Early concept - knowledge sharing platform"
 tools:
   - SharePoint
   - Power Automate

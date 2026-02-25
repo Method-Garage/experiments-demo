@@ -7,7 +7,7 @@ description: >
 workflow: cs_pipeline_review
 platform: copilot-studio
 status: scaling
-impact: "In active use for pipeline management and forecasting"
+impact: "Expanding across CSM organization"
 tools:
   - Copilot Studio
   - Salesforce

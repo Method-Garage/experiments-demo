@@ -7,7 +7,7 @@ description: >
 workflow: partner_matching
 platform: copilot-studio
 status: scaling
-impact: "In active use for partner selection and matching"
+impact: "Expanding to additional PS regions"
 tools:
   - Copilot Studio
   - Power Automate

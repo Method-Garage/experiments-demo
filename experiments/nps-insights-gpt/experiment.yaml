@@ -6,8 +6,8 @@ description: >
   sentiment trends, and generates executive summaries.
 workflow: cs_nps_analysis
 platform: chatgpt
-status: scaling
-impact: "In active use for NPS analysis"
+status: scaled
+impact: "Fully deployed across all CSM regions"
 tools:
   - ChatGPT Enterprise
 data_sources:

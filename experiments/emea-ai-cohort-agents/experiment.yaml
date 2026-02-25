@@ -5,8 +5,8 @@ description: >
   Collection of AI agents being developed by the EMEA cohort program,
   exploring various use cases for customer success.
 platform: custom
-status: prototype
-impact: "In development - multiple experimental agents"
+status: idea
+impact: "Early exploration - multiple experimental agents"
 tools:
   - Various
   - Copilot Studio

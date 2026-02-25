@@ -5,8 +5,8 @@ description: >
   Claude-powered project management assistant that helps PMs track
   decisions, action items, and project context across engagements.
 platform: claude-code
-status: scaling
-impact: "In active use for PM workflow optimization"
+status: production
+impact: "Building production deployment for PS team rollout"
 tools:
   - Claude
   - Notion

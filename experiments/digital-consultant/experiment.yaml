@@ -6,7 +6,7 @@ description: >
   recommendations and best practices via MCP integration.
 platform: custom
 status: scaling
-impact: "In active use by PS team for client engagements"
+impact: "Rolling out to broader PS team"
 tools:
   - RAG Pipeline
   - MCP Server

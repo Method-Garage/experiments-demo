@@ -6,8 +6,8 @@ description: >
   insights for business reviews and success planning.
 workflow: cs_value_tracking
 platform: chatgpt
-status: scaling
-impact: "In active use for value delivery reporting"
+status: scaled
+impact: "Standard tool for all CSM business reviews"
 tools:
   - ChatGPT Enterprise
 data_sources:

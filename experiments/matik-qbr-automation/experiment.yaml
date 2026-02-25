@@ -6,8 +6,8 @@ description: >
   from multiple sources to create personalized business reviews.
 workflow: cs_qbr_prep
 platform: custom
-status: scaling
-impact: "In active use for QBR preparation"
+status: production
+impact: "Building production deployment after successful pilot"
 tools:
   - Matik.io
   - Salesforce
