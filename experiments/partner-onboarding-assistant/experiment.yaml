@@ -1,6 +1,6 @@
 name: Partner Onboarding Assistant
-owner: Namit Patel
-department: Partner Operations
+owner: Daniel Nicklass
+department: PS
 description: >
   Chatbot that guides new partners through the onboarding process. Answers
   questions, tracks progress, and escalates blockers.

@@ -1,6 +1,6 @@
 name: Partner Capability Matcher
-owner: Namit Patel
-department: Partner Operations
+owner: Paolo Serra
+department: PS
 description: >
   Matches customer project requirements with partner capabilities. Uses AI to
   analyze RFP requirements and find best-fit partners from the ecosystem.

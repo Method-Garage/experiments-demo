@@ -1,6 +1,6 @@
 name: SearchUnify POC
-owner: Royce Chen
-department: CTS
+owner: Royce Abel
+department: Support
 description: >
   Proof of concept integrating SearchUnify's cognitive search with case
   resolution workflow. Compares accuracy against native Salesforce search.

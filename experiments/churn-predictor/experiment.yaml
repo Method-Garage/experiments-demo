@@ -1,6 +1,6 @@
 name: Churn Predictor
-owner: Sarah Kim
-department: Customer Success
+owner: Kishore Kurnam
+department: CSM
 description: >
   Early warning system for customer churn using AI to analyze product usage
   patterns, support ticket sentiment, and engagement signals.

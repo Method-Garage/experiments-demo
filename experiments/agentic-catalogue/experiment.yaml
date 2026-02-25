@@ -1,6 +1,6 @@
 name: Agentic Catalogue
-owner: Kirpal Demian
-department: CTS
+owner: Kirpal Singh-Sachdev
+department: CSM
 description: >
   Self-maintaining product catalogue that uses AI agents to keep product
   information current. Agents crawl vendor sites, extract specs, and

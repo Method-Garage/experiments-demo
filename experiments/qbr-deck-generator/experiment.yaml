@@ -1,6 +1,6 @@
 name: QBR Deck Generator
-owner: Marcus Johnson
-department: Professional Services
+owner: Namit Ranjan
+department: PS
 description: >
   Automates creation of Quarterly Business Review presentations. Pulls data
   from multiple sources, generates insights, and creates branded slide decks.
@@ -20,4 +20,4 @@ data_sources:
   - NPS Scores
 started: "2025-09-01"
 contributors:
-  - Sarah Kim
+  - Jena Willis

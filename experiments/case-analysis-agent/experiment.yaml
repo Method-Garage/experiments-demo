@@ -1,6 +1,6 @@
 name: Case Analysis Agent
-owner: Royce Chen
-department: CTS
+owner: Royce Abel
+department: Support
 description: >
   AI agent that analyzes incoming customer cases, identifies patterns across
   similar historical cases, and suggests resolution paths. Uses semantic search
@@ -19,4 +19,4 @@ data_sources:
   - Case Resolution History
 started: "2025-09-15"
 contributors:
-  - Janet Liu
+  - Jamie Scherer

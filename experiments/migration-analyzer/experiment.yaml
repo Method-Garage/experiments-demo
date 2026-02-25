@@ -1,6 +1,6 @@
 name: Migration Analyzer
-owner: Tova Martinez
-department: Engineering
+owner: Tova Scherzer
+department: PS
 description: >
   Analyzes legacy codebases to plan migration paths. Identifies dependencies,
   suggests refactoring strategies, estimates effort.

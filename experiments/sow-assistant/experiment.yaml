@@ -1,6 +1,6 @@
 name: SOW Assistant
-owner: Marcus Johnson
-department: Professional Services
+owner: Saikat Bhattacharya
+department: PS
 description: >
   AI assistant for drafting Statements of Work. Analyzes customer requirements,
   suggests scope based on similar past projects, estimates effort.

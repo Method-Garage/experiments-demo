@@ -1,6 +1,6 @@
 name: Portfolio OS
-owner: Elliott Chen
-department: CTS
+owner: Raffael Pobaschnig
+department: CSM
 description: >
   Operating system for managing the AI experiment portfolio. Tracks experiments,
   identifies duplicates, surfaces patterns, and helps coordinate builder efforts.
@@ -20,4 +20,4 @@ data_sources:
   - Builder Profiles
 started: "2025-08-01"
 contributors:
-  - Kirpal Demian
+  - Kirpal Singh-Sachdev

@@ -1,6 +1,6 @@
 name: Code Review Assistant
-owner: Tova Martinez
-department: Engineering
+owner: Tova Scherzer
+department: PS
 description: >
   AI-powered code review assistant that checks for security vulnerabilities,
   code style issues, and suggests improvements. Integrates with GitHub PR workflow.

@@ -1,6 +1,6 @@
 name: MCPedia
-owner: Elliott Chen
-department: CTS
+owner: Anuja Dharkar
+department: CSM
 description: >
   Knowledge base and discovery tool for MCP (Model Context Protocol) servers.
   Helps builders find and evaluate MCP integrations for their AI tools.
