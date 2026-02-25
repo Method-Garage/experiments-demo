@@ -1,0 +1,16 @@
+name: MCPedia MCP Server
+owner: Kirpal Singh-Sachdev
+department: CSM
+description: >
+  Custom MCP server that serves as a knowledge base and discovery tool
+  for Model Context Protocol integrations and capabilities.
+platform: custom
+status: prototype
+impact: "In development - enabling MCP discovery and adoption"
+tools:
+  - Custom MCP Server
+  - Node.js
+data_sources:
+  - MCP Registry
+  - Integration Docs
+started: "2026-01-15"

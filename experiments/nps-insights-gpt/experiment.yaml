@@ -1,18 +1,16 @@
 name: NPS Insights GPT
-owner: Jena Willis
+owner: Will Kotterman
 department: CSM
 description: >
   Custom GPT that analyzes NPS survey responses, identifies themes and
-  sentiment trends, and generates executive summaries. Helps CS managers
-  spot issues before they escalate.
+  sentiment trends, and generates executive summaries.
 workflow: cs_nps_analysis
 platform: chatgpt
-status: pilot
-impact: "Reducing NPS analysis time from 4 hours to 15 minutes per cohort"
+status: scaling
+impact: "In active use for NPS analysis"
 tools:
   - ChatGPT Enterprise
-  - Excel
 data_sources:
   - NPS Survey Exports
   - Customer Segments
-started: "2025-10-01"
+started: "2025-07-01"

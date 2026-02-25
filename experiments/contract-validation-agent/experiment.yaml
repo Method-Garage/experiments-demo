@@ -1,0 +1,18 @@
+name: Contract Validation Agent
+owner: Daniel Nicklass
+department: PS
+description: >
+  Validates customer contracts against standard templates, flags deviations,
+  and suggests corrections before legal review.
+workflow: ps_contract_review
+platform: copilot-studio
+status: pilot
+impact: "Piloting with contracts team"
+tools:
+  - Copilot Studio
+  - SharePoint
+data_sources:
+  - Contract Templates
+  - Legal Guidelines
+  - Historical Contracts
+started: "2025-11-01"

@@ -3,11 +3,11 @@ owner: Royce Abel
 department: Support
 description: >
   Proof of concept integrating SearchUnify's cognitive search with case
-  resolution workflow. Compares accuracy against native Salesforce search.
+  resolution workflow for improved knowledge discovery.
 workflow: cts_case_analysis
 platform: custom
-status: prototype
-impact: "Testing search accuracy improvements over baseline"
+status: pilot
+impact: "Piloting cognitive search integration"
 tools:
   - SearchUnify
   - Salesforce API

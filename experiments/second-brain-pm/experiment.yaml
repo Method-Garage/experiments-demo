@@ -1,0 +1,18 @@
+name: Second Brain PM Project
+owner: Mike Eggers
+department: PS
+description: >
+  Claude-powered project management assistant that helps PMs track
+  decisions, action items, and project context across engagements.
+platform: claude-code
+status: scaling
+impact: "In active use for PM workflow optimization"
+tools:
+  - Claude
+  - Notion
+  - Jira
+data_sources:
+  - Project Documents
+  - Meeting Notes
+  - Action Items
+started: "2025-10-01"

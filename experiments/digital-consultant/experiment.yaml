@@ -1,0 +1,18 @@
+name: Digital Consultant
+owner: Paolo Serra
+department: PS
+description: >
+  RAG-powered consulting assistant that provides TOGAF-aligned architecture
+  recommendations and best practices via MCP integration.
+platform: custom
+status: scaling
+impact: "In active use by PS team for client engagements"
+tools:
+  - RAG Pipeline
+  - MCP Server
+  - TOGAF Framework
+data_sources:
+  - Architecture Patterns
+  - Best Practices Library
+  - Client Case Studies
+started: "2025-08-01"

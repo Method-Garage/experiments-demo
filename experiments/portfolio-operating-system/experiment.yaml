@@ -1,0 +1,17 @@
+name: Portfolio Operating System
+owner: Elliott Chen
+department: CSM
+description: >
+  System for managing and coordinating AI experiment portfolios. Tracks
+  experiments, identifies duplicates, and surfaces reusable patterns.
+platform: cursor
+status: prototype
+impact: "In development - central coordination for AI experiments"
+tools:
+  - Cursor
+  - Next.js
+  - PostgreSQL
+data_sources:
+  - GitHub Repos
+  - Experiment Registry
+started: "2025-10-01"

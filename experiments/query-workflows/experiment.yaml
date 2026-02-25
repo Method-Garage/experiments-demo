@@ -1,0 +1,18 @@
+name: Query Workflows
+owner: Kishore Kurnam
+department: CSM
+description: >
+  AI-assisted workflow builder for creating and optimizing customer
+  data queries and analytics pipelines.
+workflow: cs_analytics
+platform: cursor
+status: scaling
+impact: "In active use by analytics team"
+tools:
+  - Cursor
+  - SQL
+  - BigQuery
+data_sources:
+  - Customer Analytics
+  - Product Usage Data
+started: "2025-08-15"

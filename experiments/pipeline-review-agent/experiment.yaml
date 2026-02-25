@@ -1,0 +1,18 @@
+name: Pipeline Review Agent
+owner: Albert Puiggali
+department: CSM
+description: >
+  Automates pipeline review process by analyzing opportunity data,
+  identifying risks, and generating insights for sales reviews.
+workflow: cs_pipeline_review
+platform: copilot-studio
+status: scaling
+impact: "In active use for pipeline management and forecasting"
+tools:
+  - Copilot Studio
+  - Salesforce
+data_sources:
+  - Salesforce Opportunities
+  - Historical Win/Loss Data
+  - Account Health Scores
+started: "2025-06-01"

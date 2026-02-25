@@ -1,0 +1,17 @@
+name: RAID-Log Assistant Agent
+owner: Thomas Verotte
+department: CSD
+description: >
+  Copilot agent that helps project managers maintain RAID logs (Risks,
+  Assumptions, Issues, Dependencies) with AI-assisted updates.
+platform: copilot-studio
+status: pilot
+impact: "Piloting with CSD team"
+tools:
+  - Copilot Studio
+  - SharePoint
+data_sources:
+  - Project RAID Logs
+  - Risk Templates
+  - Historical Issues
+started: "2025-11-15"

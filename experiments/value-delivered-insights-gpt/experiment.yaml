@@ -1,0 +1,17 @@
+name: Value Delivered Insights GPT
+owner: Jena Willis
+department: CSM
+description: >
+  GPT that analyzes customer value realization data and generates
+  insights for business reviews and success planning.
+workflow: cs_value_tracking
+platform: chatgpt
+status: scaling
+impact: "In active use for value delivery reporting"
+tools:
+  - ChatGPT Enterprise
+data_sources:
+  - Value Metrics
+  - Customer Outcomes
+  - ROI Data
+started: "2025-08-01"

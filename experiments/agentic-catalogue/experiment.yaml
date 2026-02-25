@@ -2,20 +2,16 @@ name: Agentic Catalogue
 owner: Kirpal Singh-Sachdev
 department: CSM
 description: >
-  Self-maintaining product catalogue that uses AI agents to keep product
-  information current. Agents crawl vendor sites, extract specs, and
-  update the catalogue automatically.
-workflow: cts_case_analysis
-platform: claude-code
+  Self-maintaining product catalogue using AI agents to keep product
+  information current by crawling and extracting vendor data.
+platform: custom
 status: prototype
-impact: "Reducing manual catalogue maintenance by 80%"
+impact: "In development - automated catalogue maintenance"
 tools:
-  - Claude Code
-  - LangGraph
-  - Playwright
-  - PostgreSQL
+  - TBD
+  - Web Scraping
+  - LLM Processing
 data_sources:
   - Vendor Websites
   - Product Specs
-  - Pricing APIs
-started: "2025-11-01"
+started: "2026-02-01"

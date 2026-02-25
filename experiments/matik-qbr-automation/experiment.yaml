@@ -1,0 +1,19 @@
+name: Matik.io QBR Automation
+owner: EBCS Team
+department: CSM
+description: >
+  Automated QBR deck generation using Matik.io platform, pulling data
+  from multiple sources to create personalized business reviews.
+workflow: cs_qbr_prep
+platform: custom
+status: scaling
+impact: "In active use for QBR preparation"
+tools:
+  - Matik.io
+  - Salesforce
+  - PowerPoint
+data_sources:
+  - Salesforce Data
+  - Product Usage
+  - Support History
+started: "2025-06-15"

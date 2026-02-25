@@ -1,0 +1,17 @@
+name: EMEA AI Cohort Agents
+owner: Albert Puiggali
+department: CSM
+description: >
+  Collection of AI agents being developed by the EMEA cohort program,
+  exploring various use cases for customer success.
+platform: custom
+status: prototype
+impact: "In development - multiple experimental agents"
+tools:
+  - Various
+  - Copilot Studio
+  - ChatGPT
+data_sources:
+  - Regional Data
+  - Customer Insights
+started: "2026-01-01"

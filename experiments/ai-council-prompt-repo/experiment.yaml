@@ -1,0 +1,16 @@
+name: AI Council + Prompt Repo
+owner: Andrea Rubino
+department: CSM
+description: >
+  Centralized SharePoint repository for AI prompts, templates, and
+  best practices curated by the AI Council.
+platform: custom
+status: prototype
+impact: "In development - knowledge sharing platform"
+tools:
+  - SharePoint
+  - Power Automate
+data_sources:
+  - Prompt Library
+  - Use Case Catalog
+started: "2026-01-15"

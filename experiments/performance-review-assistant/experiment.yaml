@@ -1,0 +1,17 @@
+name: Performance Review Assistant
+owner: Albert Puiggali
+department: CSM
+description: >
+  AI assistant that helps managers prepare performance reviews by
+  analyzing achievements, feedback, and growth areas.
+platform: copilot-studio
+status: scaling
+impact: "In active use for performance management"
+tools:
+  - Copilot Studio
+  - HR Systems
+data_sources:
+  - Performance Data
+  - Feedback History
+  - Goals Tracking
+started: "2025-09-15"

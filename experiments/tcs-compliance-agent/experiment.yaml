@@ -1,0 +1,18 @@
+name: T&Cs Compliance Agent
+owner: Tova Scherzer
+department: PS
+description: >
+  Reviews terms and conditions for compliance issues, flags potential
+  risks, and ensures alignment with company policies.
+workflow: ps_compliance
+platform: copilot-studio
+status: scaling
+impact: "In active use for T&C review process"
+tools:
+  - Copilot Studio
+  - Compliance Framework
+data_sources:
+  - Policy Documents
+  - Compliance Rules
+  - Historical Reviews
+started: "2025-09-01"

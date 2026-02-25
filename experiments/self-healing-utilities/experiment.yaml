@@ -1,0 +1,17 @@
+name: Self-Healing Utilities
+owner: CTS Diagnostics
+department: Support
+description: >
+  Automated diagnostic and remediation system for common technical
+  support issues, reducing manual intervention needed.
+platform: custom
+status: scaling
+impact: "In active use for automated issue resolution"
+tools:
+  - Custom Scripts
+  - Monitoring Tools
+data_sources:
+  - System Logs
+  - Error Patterns
+  - Resolution History
+started: "2025-05-01"
