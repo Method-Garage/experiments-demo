@@ -1,0 +1,26 @@
+name: VoC Insights Agent
+owner: Method Garage
+department: CSM
+description: >
+  AI agent that synthesizes Voice of Customer data from multiple sources
+  (NPS, support tickets, product feedback, sales calls) to surface
+  actionable insights and trends for customer success teams.
+workflow: cs_voc_analysis
+platform: claude-code
+status: prototype
+impact: "Active prototype engagement - consolidating VoC signals into unified insights"
+tools:
+  - Claude
+  - LangGraph
+  - Vertex AI
+  - BigQuery
+data_sources:
+  - NPS Surveys
+  - Support Tickets
+  - Product Feedback
+  - Sales Call Transcripts
+  - Customer Health Scores
+started: "2026-02-25"
+contributors:
+  - Jena Willis
+  - Kishore Kurnam
