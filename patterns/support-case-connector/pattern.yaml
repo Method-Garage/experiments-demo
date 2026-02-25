@@ -1,0 +1,26 @@
+name: Support Case Data Connector
+owner: Royce Abel
+maturity: 3  # Pilot-Proven
+pattern_type: integration
+description: >
+  Approved integration for accessing Salesforce and Dynamics 365 support case data.
+  Provides consistent schema mapping across CRM systems and handles pagination,
+  rate limiting, and field-level security filtering.
+use_when:
+  - Analyzing historical support cases
+  - Building case routing or triage agents
+  - Extracting patterns from customer issues
+dont_use_when:
+  - Real-time case updates (use platform webhooks)
+  - Creating or modifying cases (use write-specific patterns)
+prerequisites:
+  - Salesforce Connected App credentials or Dynamics API access
+  - Case object read permissions
+  - PII handling training completed
+tech_stack:
+  - python
+  - simple-salesforce
+  - dynamics-365-api
+  - pydantic
+source_experiment: case-analysis-agent
+adoption_count: 2

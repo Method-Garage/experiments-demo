@@ -1,0 +1,28 @@
+name: Audio Transcription Pipeline
+owner: Method Garage
+maturity: 4  # IT Approved
+pattern_type: processing
+description: >
+  End-to-end pipeline for transcribing audio recordings to structured text.
+  Handles chunking for long recordings, speaker diarization, and outputs
+  transcript ready for downstream analysis or synthesis.
+use_when:
+  - Transcribing meeting recordings or sales calls
+  - Processing interview audio for analysis
+  - Any workflow that starts with audio and needs text
+dont_use_when:
+  - Real-time transcription (use streaming APIs)
+  - Audio under 30 seconds (direct API call simpler)
+  - Non-speech audio (music, sound effects)
+prerequisites:
+  - Vertex AI API access (Gemini models)
+  - Audio file in supported format (mp3, wav, m4a)
+  - GCP project with billing enabled
+tech_stack:
+  - python
+  - vertex-ai
+  - gemini-pro
+  - pydub
+  - chunked-processing
+source_experiment: voc-insights-agent
+adoption_count: 5

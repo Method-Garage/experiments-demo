@@ -1,0 +1,26 @@
+name: Snowflake Data Connector
+owner: Kishore Kurnam
+maturity: 4  # IT Approved
+pattern_type: integration
+description: >
+  Secure, approved mechanism for querying Snowflake data warehouses.
+  Handles authentication, connection pooling, and query parameterization.
+  All Snowflake access should use this pattern rather than direct connections.
+use_when:
+  - Accessing analytics data from Snowflake
+  - Building dashboards or reports from warehouse data
+  - Any agent that needs customer analytics or usage metrics
+dont_use_when:
+  - Real-time streaming data (use Kafka connector instead)
+  - Data under 10MB (consider API or file-based approach)
+prerequisites:
+  - Snowflake service account credentials (from IT)
+  - VPN or approved network path to Snowflake
+  - Data access approval for specific schemas
+tech_stack:
+  - python
+  - snowflake-connector-python
+  - connection-pooling
+  - parameterized-queries
+source_experiment: query-workflows
+adoption_count: 3

@@ -1,0 +1,27 @@
+name: Slide Builder
+owner: Thomas Verotte
+maturity: 3  # Pilot-Proven
+pattern_type: output
+description: >
+  Generate PowerPoint presentations from structured data.
+  Supports template-based generation, dynamic charts, and brand-compliant
+  formatting. Use for automated reporting and QBR generation.
+use_when:
+  - Generating recurring reports (QBRs, status updates)
+  - Creating presentation decks from data
+  - Any workflow that outputs slides
+dont_use_when:
+  - One-off presentations (manual creation faster)
+  - Heavy design work (use design tools)
+  - Google Slides output (use Slides API pattern instead)
+prerequisites:
+  - PowerPoint template file (.pptx)
+  - Structured data in expected schema
+  - Brand guidelines for styling
+tech_stack:
+  - python
+  - python-pptx
+  - jinja2
+  - pillow
+source_experiment: matik-qbr-automation
+adoption_count: 2
