@@ -1,0 +1,35 @@
+title: QBR Prep Automation
+submitter: Customer Success Team
+department: CSM
+submitted: "2026-02-20"
+problem: >
+  CSMs spend 8-12 hours preparing for each customer QBR. They pull data from
+  multiple sources (Salesforce, product analytics, support tickets, NPS), massage
+  the data, and build a presentation deck. Because they rarely have 8-12 hour
+  blocks, prep happens over 2-3 weeks with constant context switching. The worst
+  part: because it's so painful, CSMs only do QBRs for their top accounts. They
+  should be doing them for all customers.
+current_state:
+  volume: "~50 QBRs/quarter (should be 200+)"
+  time_per_qbr: "8-12 hours"
+  team_size: 15
+  tools: "Salesforce, Gainsight, PowerPoint, manual data pulls"
+  pain_points:
+    - "Multi-week prep with context switching"
+    - "Manual data gathering from 5+ systems"
+    - "Inconsistent deck quality"
+    - "Only top accounts get QBRs"
+desired_state: >
+  AI gathers customer data automatically, generates insights, and produces a
+  draft QBR deck. CSM reviews and customizes in 1-2 hours. Every customer gets
+  a QBR, not just top accounts.
+success_metrics:
+  - "Reduce prep time from 8-12 hours to 1-2 hours"
+  - "Increase QBR coverage from 25% to 100% of accounts"
+  - "Standardize deck quality across all CSMs"
+  - "CSM satisfaction score > 4.5/5"
+size: L
+status: open
+suggested_builders:
+  - Kishore Kurnam
+  - Will Kotterman
